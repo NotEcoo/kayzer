@@ -185,6 +185,16 @@ figcaption { margin-top: .8rem; color: var(--text-muted); font-size: .85rem; tex
 .assurances li { display: inline-flex; align-items: center; gap: .5rem; }
 .assurances li::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--cyan); }
 
+/* Download */
+.download { display: grid; grid-template-columns: 1fr; gap: 1.5rem; align-items: start; }
+.download h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); }
+.download-meta { margin-top: .8rem; color: var(--text-muted); font-weight: 600; }
+.download-notes { margin-top: 1.4rem; }
+.download .note { max-width: 62ch; }
+.download-sha { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .78rem; overflow-wrap: anywhere; }
+.download-steps ol { margin: 0; padding-left: 1.2rem; display: grid; gap: .8rem; color: var(--text-muted); }
+.download-steps li::marker { color: var(--violet-text); font-weight: 700; }
+
 /* FAQ */
 .faq { display: grid; gap: .7rem; }
 .faq details { border-radius: var(--radius-sm); background: var(--surface); border: 1px solid var(--border); transition: border-color .2s; }
@@ -241,6 +251,7 @@ figcaption { margin-top: .8rem; color: var(--text-muted); font-size: .85rem; tex
   .step:last-child { grid-column: auto; }
   .features { grid-template-columns: repeat(3, 1fr); }
   .split { grid-template-columns: 1fr 1fr; }
+  .download { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 3rem; }
   .plans { grid-template-columns: repeat(3, 1fr); }
 }
 
