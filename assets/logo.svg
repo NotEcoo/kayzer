@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="256" height="256" role="img" aria-label="Kayzer Performance">
+  <defs>
+    <linearGradient id="kz" x1="20" y1="85" x2="85" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7C3AED"/>
+      <stop offset="1" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#181D36"/>
+      <stop offset="1" stop-color="#0A0D1A"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="96" height="96" rx="22" fill="url(#tile)" stroke="#8B5CF6" stroke-opacity="0.35" stroke-width="1.5"/>
+  <g transform="translate(15 15) scale(0.7)" fill="none" stroke="url(#kz)" stroke-width="14" stroke-linecap="round">
+    <line x1="30" y1="22" x2="30" y2="78"/>
+    <line x1="47" y1="50" x2="70" y2="78"/>
+    <line x1="38" y1="58" x2="66" y2="30"/>
+    <polygon points="82,14 54,20 76,42" fill="url(#kz)" stroke="none"/>
+  </g>
+</svg>
